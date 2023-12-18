@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head'
 
 export default function Home()
 {
   return (
-    <main className="font-body">
-      <h1>Hello world</h1>
-    </main>
+    <>
+      <Head>
+        <title>GameStore | Home</title>
+      </Head>
+      <main className="font-body">
+
+      </main>
+    </>
   )
 }
