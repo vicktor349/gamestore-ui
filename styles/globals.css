@@ -3,7 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-main{
+
+body{
     background-color: #F5F5F5;
+}
+main{
     margin: 0 48px;
 }
