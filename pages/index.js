@@ -15,7 +15,9 @@ export default function Home()
             <SideNavbar />
           </div>
           <div className='bg-white col-start-3 col-end-9 h-fit'>
-            <Card />
+            <div className='py-12 px-6'>
+              <Card />
+            </div>
           </div>
         </div>
       </main>
