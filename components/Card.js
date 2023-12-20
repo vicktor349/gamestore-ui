@@ -4,39 +4,72 @@ const Card = () =>
 {
     const cardDetails = [
         {
-            Name: "Street Fighter II",
+            Name: "Street Fighter 6",
             Genre: "Fighting",
-            Price: 100,
-            Imageuri: "https://placehold.co/100"
+            Price: 37.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/2/9/8/829829_gen_a.png"
         },
         {
-            Name: "Street Fighter II",
-            Genre: "Fighting",
-            Price: 100,
-            Imageuri: "https://placehold.co/100"
+            Name: "Final Fantasy XVI",
+            Genre: "RolePlaying",
+            Price: 34.98,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/7/4/9/6/749641_gen_a.png"
         },
         {
-            Name: "Street Fighter II",
-            Genre: "Fighting",
-            Price: 100,
-            Imageuri: "https://placehold.co/100"
+            Name: "FC 24",
+            Genre: "Sports",
+            Price: 69.98,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/P/S/5/-/PS5-SW-0000036_gen_a.png"
         },
         {
-            Name: "Street Fighter II",
-            Genre: "Fighting",
-            Price: 100,
-            Imageuri: "https://placehold.co/100"
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
         },
-
-
-
+        {
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
+        },
+        {
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
+        },
+        {
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
+        },
+        {
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
+        },
+        {
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
+        },
+        {
+            Name: "Super Mario Bros. Wonder",
+            Genre: "Arcade",
+            Price: 44.99,
+            Imageuri: "https://cdn.game.net/image/upload/c_fill,dpr_1.0,f_auto,h_200,q_auto/v1/game_img/ml2/8/3/3/3/833303_gen_a.png"
+        },
     ]
     return (
         <div className='grid grid-cols-4'>
             {cardDetails.map((cardDetail, id) =>
             {
                 return (
-                    <div className='py-20' key={id}>
+                    <div key={id}>
                         <div className='border border-solid border-gray-300'>
                             <img src={cardDetail.Imageuri} height={200} width={200} alt="Game Image" className='hover:cursor-pointer mx-auto mt-12' />
                             <h1 className='mt-4 font-bold text-[#333] hover:cursor-pointer ml-7 hover:underline'>{cardDetail.Name}</h1>

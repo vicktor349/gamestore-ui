@@ -10,14 +10,14 @@ export default function Home()
         <title>GameStore | Home</title>
       </Head>
       <main className="font-body mt-20">
-        <div className='grid grid-cols-6'>
-          <div className='bg-white w-48'>
-            <div className='ml-2'>
+        <div className='grid grid-cols-8'>
+          <div className='bg-white w-64'>
+            <div>
               <SideNavbar />
             </div>
           </div>
-          <div className='bg-white col-start-2 col-end-7'>
-            <div className='mx-16'>
+          <div className='bg-white col-start-3 col-end-9'>
+            <div>
               <Card />
             </div>
           </div>

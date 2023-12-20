@@ -9,10 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mantine/core": "^7.3.2",
-    "@mantine/form": "^7.3.2",
-    "@mantine/hooks": "^7.3.2",
-    "@mantine/notifications": "^7.3.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.1",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
