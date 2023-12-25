@@ -32,7 +32,6 @@ const createGames = () =>
                 data: details,
                 headers: { 'Content-Type': 'application/json' }
             })
-            console.log(details);
         } catch (err)
         {
             console.log(err);
