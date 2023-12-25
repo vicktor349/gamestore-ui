@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import axios from 'axios'
-
-
 
 
 const Card = () =>
@@ -37,7 +34,6 @@ const Card = () =>
                 {
                     return (
                         <div key={id}>
-                            {console.log(cardDetail)}
                             <div className='border border-solid border-gray-300'>
                                 <img src={cardDetail["imageUri"]} height={200} width={200} alt="Game Image" className='hover:cursor-pointer mx-auto mt-12' />
                                 <h1 className='mt-4 font-bold text-[#333] hover:cursor-pointer ml-7 hover:underline'>{cardDetail["name"]}</h1>
