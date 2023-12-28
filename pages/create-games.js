@@ -27,14 +27,15 @@ const createGames = () =>
         try
         {
             await axios({
-                method: "POST",
-                url: "http://localhost:5000/games",
+                method: 'POST',
+                url: 'http://localhost:5201/games',
                 data: details,
                 headers: { 'Content-Type': 'application/json' }
             })
+            console.log(details)
         } catch (err)
         {
-            console.log(err);
+            console.log(err)
         }
     }
     return (
@@ -43,7 +44,7 @@ const createGames = () =>
                 <title>GameStore | Add Games</title>
             </Head>
             <div className='mx-72 mt-20'>
-                <form action="" className='text-[#434f5c]' onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} className='text-[#434f5c]'>
                     <label htmlFor="name" className='font-semibold'>Game Name</label><br />
                     <input type="text" name="name" id="name"
                         required
